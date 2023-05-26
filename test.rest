@@ -1,0 +1,18 @@
+
+POST http://localhost:3001/api/notes
+content-type: application/json
+
+{
+    "content": "This is a test message",
+    "important": false
+}
+
+
+###
+POST http://localhost:3002/api/persons
+content-type: application/json
+
+{
+    "name": "sameer",
+    "number": "588411"
+}
